@@ -457,7 +457,7 @@ npm run build
 ### Getting Help
 
 If you encounter issues:
-1. Check the [Issues](https://github.com/YOUR_USERNAME/ayurlife-health-app/issues) page
+1. Check the [Issues](https://github.com/Kalpesh2005/ayurlife-health-app/issues) page
 2. Search for similar problems
 3. Create a new issue with detailed information
 
@@ -476,8 +476,8 @@ Unauthorized copying, modification, distribution, or use of this software, via a
 **Project Maintainer**: AyurLife Development Team
 
 - **Email**: contact@ayurlife.com
-- **GitHub**: [@YOUR_USERNAME](https://github.com/YOUR_USERNAME)
-- **Project Link**: [https://github.com/YOUR_USERNAME/ayurlife-health-app](https://github.com/YOUR_USERNAME/ayurlife-health-app)
+- **GitHub**: [Kalpesh2005](https://github.com/Kalpesh2005)
+- **Project Link**: [https://github.com/Kalpesh2005/ayurlife-health-app](https://github.com/Kalpesh2005/ayurlife-health-app)
 
 ---
 
