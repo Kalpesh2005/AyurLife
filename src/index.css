@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 45 20% 96%;
+    --foreground: 145 25% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 145 25% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 145 25% 15%;
+
+    --primary: 145 40% 35%;
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 45 30% 88%;
+    --secondary-foreground: 145 25% 15%;
+
+    --muted: 45 20% 90%;
+    --muted-foreground: 145 15% 45%;
+
+    --accent: 35 80% 55%;
+    --accent-foreground: 0 0% 98%;
+
+    --vata: 210 70% 55%;
+    --vata-foreground: 0 0% 98%;
+    
+    --pitta: 25 85% 55%;
+    --pitta-foreground: 0 0% 98%;
+    
+    --kapha: 140 50% 45%;
+    --kapha-foreground: 0 0% 98%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 145 20% 85%;
+    --input: 145 20% 85%;
+    --ring: 145 40% 35%;
+
+    --radius: 0.75rem;
+    
+    --gradient-hero: linear-gradient(135deg, hsl(145 40% 35%), hsl(140 50% 45%));
+    --gradient-vata: linear-gradient(135deg, hsl(210 70% 55%), hsl(220 65% 60%));
+    --gradient-pitta: linear-gradient(135deg, hsl(25 85% 55%), hsl(35 80% 60%));
+    --gradient-kapha: linear-gradient(135deg, hsl(140 50% 45%), hsl(150 45% 50%));
+    
+    --shadow-soft: 0 2px 8px hsl(145 40% 35% / 0.08);
+    --shadow-medium: 0 4px 16px hsl(145 40% 35% / 0.12);
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .dark {
+    --background: 145 25% 8%;
+    --foreground: 45 20% 95%;
+
+    --card: 145 20% 12%;
+    --card-foreground: 45 20% 95%;
+
+    --popover: 145 20% 12%;
+    --popover-foreground: 45 20% 95%;
+
+    --primary: 145 40% 50%;
+    --primary-foreground: 145 25% 8%;
+
+    --secondary: 145 20% 18%;
+    --secondary-foreground: 45 20% 95%;
+
+    --muted: 145 15% 20%;
+    --muted-foreground: 45 15% 65%;
+
+    --accent: 35 75% 50%;
+    --accent-foreground: 145 25% 8%;
+
+    --vata: 210 60% 50%;
+    --vata-foreground: 0 0% 98%;
+    
+    --pitta: 25 75% 50%;
+    --pitta-foreground: 0 0% 98%;
+    
+    --kapha: 140 45% 40%;
+    --kapha-foreground: 0 0% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 145 15% 22%;
+    --input: 145 15% 22%;
+    --ring: 145 40% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
